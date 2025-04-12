@@ -83,7 +83,6 @@ const Hero = () => {
               <input
                 min="1995-06-20"
                 max={today}
-                value={ today}
                 type="date"
                 onChange={handleDataChange}
                 className="p-1 sm:p-2 text-xs sm:text-sm md:text-base"
